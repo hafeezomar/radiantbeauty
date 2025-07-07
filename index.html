@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Radiant Beauty at Home</title>
+  <style>
+    /* Set background image for the entire body */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('background.jpg'); /* 🔁 Replace with your background image */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: rgb(198, 47, 47);
+    }
+
+    /* Optional: add a slight overlay to improve text visibility */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white */
+      z-index: -1;
+    }
+
+    /* Header with a clear background image */
+    .header {
+      position: relative;
+      height: 300px;
+      background-image: url('header.jpg'); /* 🔁 Replace with your header image */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header h1,
+    .header p {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    nav {
+      background-color: #f8c8dc;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #b30059;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9); /* white background with slight transparency */
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #b30059;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+    }
+
+    @media (max-width: 600px) {
+      iframe {
+        height: 1000px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Radiant Beauty at Home</h1>
+    <p>Your personal beauty salon experience, right at home</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Makeup, hair dresser, manicure & pedicure, facials and waxing services — all in the comfort of home.</p>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <!-- ✅ Replace with your own Google Form embed URL -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeXZWGgIzNWkCBj-q6WAkdOo6GmuMsRaEr_96cAGY4RVaDhKg/viewform?embedded=true" width="640" height="1317" frameborder="0" marginheight="0" marginwidth="0">
+
+    </iframe>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 07538631719<br>Email: rayhana.gafori@yahoo.com</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a certified beauty specialist with 5+ years of experience helping women look and feel their best — now offering services from the comfort of home.</p>
+  </section>
+
+</body>
+</html>
+
+  <!-- Footer -->
+  <footer style="background-color:#f8c8dc; padding: 20px 0; text-align: center;">
+    <p style="margin-bottom: 10px; font-weight: bold;">Connect with us:</p>
+    <div style="font-size: 24px;">
+      <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp" style="margin: 0 10px; color: #25D366; text-decoration: none;">
+        🟢 WhatsApp
+      </a>
+      <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram" style="margin: 0 10px; color: #E1306C; text-decoration: none;">
+        📸 Instagram
+      </a>
+      <a href="https://youtube.com/@yourchannel" target="_blank" title="YouTube" style="margin: 0 10px; color: #FF0000; text-decoration: none;">
+        ▶️ YouTube
+      </a>
+    </div>
+    <p style="margin-top: 15px; font-size: 14px; color: #666;">&copy; 2025 Radiant Beauty at Home. All rights reserved.</p>
+  </footer>
